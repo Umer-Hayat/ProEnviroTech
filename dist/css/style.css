@@ -17,10 +17,56 @@ body {
 /*=============================================
 =            body Area Code            =
 =============================================*/
-.b1 {
-  background-image: "../img/body1.jpg";
-  background-position: center center;
-  background-size: 100% 100%;
+/*=============================================
+=            Find US Code            =
+=============================================*/
+.find-us {
+  background-image: url("../../img/findus.jpg");
+  color: white;
+  padding: 40px;
+}
+
+.find-us h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.find-us p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.find-us label {
+  margin: 25px 0;
+  width: 100%;
+  position: relative;
+  left: -43px;
+}
+
+.find-us label input {
+  width: 84%;
+  outline: none;
+  border: none;
+  height: 35px;
+  margin: 0;
+}
+
+.find-us label span {
+  width: 15%;
+  line-height: 36px;
+  background-color: #000;
+  height: 36px;
+  position: absolute;
+}
+
+.find-us .icons .fa {
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+  line-height: 35px;
+  margin: 3px;
 }
 
 /*=============================================
