@@ -76,7 +76,10 @@
 =            media Query Code            =
 =============================================*/
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 /* Meida Quries IPad */

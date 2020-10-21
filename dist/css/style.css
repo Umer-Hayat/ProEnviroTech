@@ -17,19 +17,61 @@ body {
 /*=============================================
 =            body Area Code            =
 =============================================*/
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/*=============================================
+=            group            =
+=============================================*/
+.group {
+  background: url("../../img/aboutus.jpg") no-repeat 0, 0 #38df65;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  position: relative;
+  padding: 90px 0 70px 0;
+  color: white;
+}
+
+.group .row {
+  z-index: 1;
+}
+
+.group a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+
+/*=============================================
+=            service            =
+=============================================*/
+.service {
+  padding: 30px 0;
+}
+
+.service h3 {
+  color: #38df65;
+}
+
+.service p {
+  margin: 0;
+}
+
 /*=============================================
 =            Find US Code            =
 =============================================*/
 .find-us {
-  background-image: url("../../img/findus.jpg");
+  background: url("../../img/findus.jpg") no-repeat 0, 0 #38df65;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   color: white;
-  padding: 40px;
-}
-
-.find-us h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 15px;
+  padding: 45px 0;
 }
 
 .find-us p {
@@ -70,8 +112,128 @@ body {
 }
 
 /*=============================================
+=            Crushed Code            =
+=============================================*/
+.crushed {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.crushed .c-first {
+  height: 290px;
+  margin: 0 0 0 -30px;
+  padding: 0 10px 0 0;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+}
+
+.crushed .c-first .image {
+  background: url("../../img/b1.jpg") no-repeat 0, 0 black;
+  background-blend-mode: lighten;
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  padding: 100px;
+  transform: skew(10deg);
+}
+
+.crushed .c-second {
+  height: 290px;
+  margin: 0 -20px 0 0;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+}
+
+.crushed .c-second .image {
+  background: url("../../img/b2.jpg");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  left: -30px;
+  top: -30px;
+  padding: 100px;
+  transform: skew(10deg);
+}
+
+.crushed .c-third {
+  height: 290px;
+  margin: 0 0 0 -30px;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+}
+
+.crushed .c-third .image {
+  background: url("../../img/b3.jpg");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  left: -30px;
+  top: -30px;
+  padding: 100px;
+  transform: skew(10deg);
+}
+
+.crushed .c-four {
+  height: 290px;
+  margin: 0 -20px 0 0;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+}
+
+.crushed .c-four .image {
+  background: url("../../img/b4.jpg");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  left: -30px;
+  top: -30px;
+  padding: 100px;
+  transform: skew(10deg);
+}
+
+.crushed p {
+  font-size: 14px;
+}
+
+.crushed a {
+  display: inline-block;
+  margin: 5px 0;
+  background-color: #38df65;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/*=============================================
 =            media Query Code            =
 =============================================*/
+@media only screen and (max-width: 768px) {
+  .find-us label {
+    left: -20px;
+  }
+}
+
 /* Meida Quries IPad */
 /* Media Quries IPad Pro */
 /*=============================================
@@ -157,5 +319,11 @@ body {
 /*=============================================
 =            media Query Code            =
 =============================================*/
+@media only screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 /* Meida Quries IPad */
 /* Media Quries IPad Pro */
