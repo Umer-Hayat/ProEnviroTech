@@ -1,14 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@700&display=swap");
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 /*=============================================
 =            Header Area Code            =
 =============================================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -16,105 +9,10 @@ body {
 /*=============================================
 =            header Area Code            =
 =============================================*/
-header {
-  background-color: black;
-  padding-bottom: 3px;
-  /*=============================================
-=            Media  Querie s Area            =
-=============================================*/
-}
-
-header .logo {
-  width: 80%;
-  margin-top: 5px;
-}
-
-header .dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
-header .dropdown > .dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
-  pointer-events: none;
-}
-
-header .dropdown-item:hover {
-  background-color: #074582;
-  color: white !important;
-  margin-left: 4px;
-}
-
-header nav {
-  transition: 200ms ease;
-  padding-bottom: 0 !important;
-}
-
-header nav a {
-  color: white !important;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  padding-bottom: 15px !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-header nav a:hover {
-  margin-bottom: -3px;
-  border-bottom: 4px solid yellow;
-}
-
-header nav li {
-  margin-right: 30px;
-}
-
-button {
-  cursor: pointer;
-}
-
-button:focus {
-  outline: none;
-}
-
-.whatsapp-img {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  width: 4%;
-  z-index: 1000;
-}
-
 /*=============================================
 =            media Query Code            =
 =============================================*/
-@media only screen and (max-width: 650px) {
-  header .logo {
-    width: 50%;
-    margin-top: 20px;
-    position: relative;
-  }
-  header .navbar-toggler {
-    position: absolute;
-    right: 0;
-    top: -50px;
-  }
-  .whatsapp-img {
-    width: 15%;
-  }
-}
-
 /* Meida Quries IPad */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
-  header .navbar-toggler {
-    position: absolute;
-    right: 0px;
-    top: -3px;
-  }
-  header .navbar-collapse .navbar-nav {
-    margin-top: 25px !important;
-  }
-}
-
 /* Media Quries IPad Pro */
 /*=============================================
 =            body Area Code            =
