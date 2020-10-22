@@ -15,6 +15,46 @@ body {
 
 .header .video {
   position: relative;
+  margin-bottom: -7px;
+}
+
+.header .header-content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 100;
+}
+
+.header .header-content .top-header {
+  background-color: #38df65;
+  height: 30px;
+  line-height: 30px;
+}
+
+.header .header-content .top-header a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.header .header-content .second-header {
+  height: 70px;
+  line-height: 70px;
+}
+
+.header .header-content .second-header .navbar {
+  padding: 0;
+}
+
+.header .header-content .second-header .nav-link {
+  color: white;
+  margin-left: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
 }
 
 .header #myVideo {
@@ -25,11 +65,13 @@ body {
 
 .header .content {
   position: absolute;
-  bottom: 0;
+  bottom: 7px;
+  right: 0;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  color: white;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
+  margin: 0;
 }
 
 .header .content h3 {
@@ -40,6 +82,52 @@ body {
 /*=============================================
 =            media Query Code            =
 =============================================*/
+@media only screen and (max-width: 768px) {
+  .header .header-content {
+    background: black;
+  }
+  .header .logo {
+    width: 70%;
+  }
+  .header .top-header {
+    display: none;
+  }
+  .header .video {
+    margin-top: 70px;
+  }
+  .header .navbar {
+    background-color: #fff;
+  }
+  .header .navbar .nav-link {
+    color: black !important;
+  }
+  .header .navbar-toggler {
+    position: absolute;
+    top: -53px;
+    right: 0;
+    background-color: #38df65;
+    border: none;
+    outline: none;
+  }
+  .header .content {
+    position: absolute;
+    bottom: -10px !important;
+    top: 203px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 5px !important;
+    margin: 0;
+    z-index: 50;
+  }
+  .header .content h3 {
+    font-weight: 600;
+    color: #38df65;
+    font-size: 20px !important;
+  }
+}
+
 /* Meida Quries IPad */
 /* Media Quries IPad Pro */
 /*=============================================
@@ -49,6 +137,11 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
+}
+
+.dolor {
+  padding: 0;
+  overflow: hidden;
 }
 
 .dolor .content {
@@ -254,9 +347,9 @@ h3 {
 }
 
 .crushed .c-first .image {
-  background: url("../../img/b1.jpg") no-repeat 0, 0 black;
-  background-blend-mode: lighten;
-  background-position: center right;
+  background: url("../../img/b1.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.6);
+  background-blend-mode: soft-light;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -276,12 +369,13 @@ h3 {
 }
 
 .crushed .c-second .image {
-  background: url("../../img/b2.jpg");
+  background: url("../../img/b2.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.6);
+  background-blend-mode: soft-light;
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  left: -28px;
+  left: -29px;
   padding: 100px;
   transform: skew(10deg);
 }
@@ -297,7 +391,8 @@ h3 {
 }
 
 .crushed .c-third .image {
-  background: url("../../img/b3.jpg");
+  background: url("../../img/b3.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.6);
+  background-blend-mode: soft-light;
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -319,7 +414,8 @@ h3 {
 }
 
 .crushed .c-four .image {
-  background: url("../../img/b4.jpg");
+  background: url("../../img/b4.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.6);
+  background-blend-mode: soft-light;
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -348,6 +444,9 @@ h3 {
 =            media Query Code            =
 =============================================*/
 @media only screen and (max-width: 768px) {
+  .dolor {
+    margin-top: 200px;
+  }
   .dolor .content {
     display: flex;
     width: 100%;

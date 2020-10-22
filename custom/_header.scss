@@ -9,8 +9,45 @@ body {
 =============================================*/
 .header {
   padding: 0;
+
   .video {
     position: relative;
+    margin-bottom: -7px;
+  }
+  .header-content {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    z-index: 100;
+    // padding: 20px;
+
+    .top-header {
+      background-color: #38df65;
+      height: 30px;
+      line-height: 30px;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin: 0 6px;
+        cursor: pointer;
+      }
+    }
+    .second-header {
+      height: 70px;
+      line-height: 70px;
+      .navbar {
+        padding: 0;
+      }
+      .nav-link {
+        color: white;
+        margin-left: 5px;
+        padding: 4px 8px;
+        cursor: pointer;
+      }
+    }
   }
   #myVideo {
     right: 0;
@@ -19,11 +56,13 @@ body {
   }
   .content {
     position: absolute;
-    bottom: 0;
+    bottom: 7px;
+    right: 0;
     background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    color: white;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
+    margin: 0;
     h3 {
       font-weight: 600;
       font-size: 24px;
@@ -34,7 +73,53 @@ body {
 =            media Query Code            =
 =============================================*/
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
+  .header {
+    .header-content {
+      background: rgb(0, 0, 0);
+    }
+    .logo {
+      width: 70%;
+    }
+    .top-header {
+      display: none;
+    }
+    .video {
+      margin-top: 70px;
+    }
+    .navbar {
+      background-color: #fff;
+      .nav-link {
+        color: black !important;
+      }
+    }
+    .navbar-toggler {
+      position: absolute;
+      top: -53px;
+      right: 0;
+      background-color: #38df65;
+      border: none;
+      outline: none;
+    }
+    .content {
+      position: absolute;
+      bottom: -10px !important;
+      top: 203px;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      height: 100%;
+      width: 100%;
+      padding: 5px !important;
+      margin: 0;
+      z-index: 50;
+
+      h3 {
+        font-weight: 600;
+        color: #38df65;
+        font-size: 20px !important;
+      }
+    }
+  }
 }
 
 /* Meida Quries IPad */
