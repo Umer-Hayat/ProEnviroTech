@@ -40,7 +40,7 @@ h3 {
   .img {
     padding: 0;
     display: flex;
-    width: 50%;
+    width: 52%;
     img {
       height: 500px;
       width: 100%;
@@ -348,12 +348,78 @@ h3 {
     }
     .c-first.c1 {
       width: 100%;
+      margin: 0;
     }
     .c-first.c2 {
       width: 100%;
     }
     .c-first.c3 {
       width: 100%;
+      margin: 0;
+    }
+  }
+  .crushed {
+    .c-first {
+      height: 225px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      transform: none;
+      .image {
+        right: 0;
+        padding: 10px;
+        transform: none;
+      }
+    }
+    .c-second {
+      height: 225px;
+      width: 100%;
+      margin: 0;
+      transform: none;
+      .image {
+        left: 0px;
+        // top: -30px;
+        padding: 10px;
+        transform: none;
+      }
+    }
+
+    .c-third {
+      height: 225px;
+      display: flex;
+      width: 100%;
+      margin: 0;
+      transform: none;
+      .image {
+        right: 0;
+        padding: 10px;
+        transform: none;
+      }
+    }
+    .c-four {
+      height: 225px;
+      width: 100%;
+      margin: 0;
+      transform: none;
+      .image {
+        left: 0;
+        padding: 10px;
+        transform: none;
+      }
+    }
+
+    p {
+      font-size: 13px;
+    }
+    a {
+      display: inline-block;
+      margin: 5px 0;
+      background-color: #38df65;
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      font-weight: 600;
+      font-size: 17px;
     }
   }
   .find-us label {

@@ -9,6 +9,41 @@ body {
 /*=============================================
 =            header Area Code            =
 =============================================*/
+.header .video {
+  position: relative;
+}
+
+.header #myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 90%;
+}
+
+.header .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.header #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header #myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
 /*=============================================
 =            media Query Code            =
 =============================================*/
@@ -55,7 +90,7 @@ h3 {
 .dolor .img {
   padding: 0;
   display: flex;
-  width: 50%;
+  width: 52%;
 }
 
 .dolor .img img {
@@ -355,12 +390,73 @@ h3 {
   }
   .agree .c-first.c1 {
     width: 100%;
+    margin: 0;
   }
   .agree .c-first.c2 {
     width: 100%;
   }
   .agree .c-first.c3 {
     width: 100%;
+    margin: 0;
+  }
+  .crushed .c-first {
+    height: 225px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transform: none;
+  }
+  .crushed .c-first .image {
+    right: 0;
+    padding: 10px;
+    transform: none;
+  }
+  .crushed .c-second {
+    height: 225px;
+    width: 100%;
+    margin: 0;
+    transform: none;
+  }
+  .crushed .c-second .image {
+    left: 0px;
+    padding: 10px;
+    transform: none;
+  }
+  .crushed .c-third {
+    height: 225px;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    transform: none;
+  }
+  .crushed .c-third .image {
+    right: 0;
+    padding: 10px;
+    transform: none;
+  }
+  .crushed .c-four {
+    height: 225px;
+    width: 100%;
+    margin: 0;
+    transform: none;
+  }
+  .crushed .c-four .image {
+    left: 0;
+    padding: 10px;
+    transform: none;
+  }
+  .crushed p {
+    font-size: 13px;
+  }
+  .crushed a {
+    display: inline-block;
+    margin: 5px 0;
+    background-color: #38df65;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 17px;
   }
   .find-us label {
     left: -20px;
