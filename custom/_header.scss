@@ -8,6 +8,7 @@ body {
 =            header Area Code            =
 =============================================*/
 .header {
+  padding: 0;
   .video {
     position: relative;
   }
@@ -15,9 +16,7 @@ body {
     right: 0;
     bottom: 0;
     width: 100%;
-    min-height: 90%;
   }
-
   .content {
     position: absolute;
     bottom: 0;
@@ -25,21 +24,10 @@ body {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-  }
-
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
+    h3 {
+      font-weight: 600;
+      font-size: 24px;
+    }
   }
 }
 /*=============================================

@@ -9,6 +9,10 @@ body {
 /*=============================================
 =            header Area Code            =
 =============================================*/
+.header {
+  padding: 0;
+}
+
 .header .video {
   position: relative;
 }
@@ -17,7 +21,6 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  min-height: 90%;
 }
 
 .header .content {
@@ -29,19 +32,9 @@ body {
   padding: 20px;
 }
 
-.header #myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-.header #myBtn:hover {
-  background: #ddd;
-  color: black;
+.header .content h3 {
+  font-weight: 600;
+  font-size: 24px;
 }
 
 /*=============================================
@@ -90,7 +83,7 @@ h3 {
 .dolor .img {
   padding: 0;
   display: flex;
-  width: 52%;
+  width: 51.3%;
 }
 
 .dolor .img img {
