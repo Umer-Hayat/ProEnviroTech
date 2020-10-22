@@ -23,6 +23,101 @@ h3 {
   margin-bottom: 15px;
 }
 
+.dolor .content {
+  display: flex;
+  width: 55%;
+  height: 500px;
+  margin: 0 -130px 0 -30px;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.dolor .content .image {
+  position: absolute;
+  padding: 50px 70px 0 120px;
+  transform: skew(10deg);
+  z-index: 5;
+}
+
+.dolor .content h3 {
+  color: #38df65;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.dolor .content .sub-heading {
+  font-weight: 600;
+}
+
+.dolor .img {
+  padding: 0;
+  display: flex;
+  width: 50%;
+}
+
+.dolor .img img {
+  height: 500px;
+  width: 100%;
+  margin-left: 75px;
+  margin-right: 50px;
+}
+
+/*=============================================
+=            agree Code            =
+=============================================*/
+.agree {
+  position: relative;
+  overflow: hidden;
+  background-color: #cbcbcb;
+}
+
+.agree .c-first {
+  display: flex;
+  height: 50px;
+  text-align: center;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+  line-height: 50px;
+}
+
+.agree .c-first .image {
+  display: flex;
+  padding: 0 40%;
+  text-align: center;
+  position: absolute;
+  transform: skew(10deg);
+  color: white;
+}
+
+.agree .c-first.c1 {
+  width: 35%;
+  margin-left: -2%;
+}
+
+.agree .c-first.c2 {
+  width: 33%;
+}
+
+.agree .c-first.c3 {
+  width: 35%;
+  margin-right: -2%;
+  background-color: #aeaeae;
+}
+
+.agree a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.agree .c-first.active {
+  background-color: #38df65;
+}
+
 /*=============================================
 =            group            =
 =============================================*/
@@ -121,9 +216,10 @@ h3 {
 }
 
 .crushed .c-first {
-  height: 290px;
+  height: 350px;
+  display: flex;
+  width: 56%;
   margin: 0 0 0 -30px;
-  padding: 0 10px 0 0;
   transform: skew(-10deg);
   overflow: hidden;
   position: relative;
@@ -136,17 +232,16 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top: -30px;
-  left: -30px;
-  right: -30px;
-  bottom: -30px;
+  right: -35px;
   padding: 100px;
   transform: skew(10deg);
 }
 
 .crushed .c-second {
-  height: 290px;
-  margin: 0 -20px 0 0;
+  height: 350px;
+  display: flex;
+  width: 49%;
+  margin: 0 -5% 0 0;
   transform: skew(-10deg);
   overflow: hidden;
   position: relative;
@@ -158,17 +253,16 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -30px;
-  right: -30px;
-  left: -30px;
-  top: -30px;
+  left: -28px;
   padding: 100px;
   transform: skew(10deg);
 }
 
 .crushed .c-third {
-  height: 290px;
-  margin: 0 0 0 -30px;
+  height: 350px;
+  display: flex;
+  width: 51.8%;
+  margin: 0 0 0 -35px;
   transform: skew(-10deg);
   overflow: hidden;
   position: relative;
@@ -180,17 +274,17 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -30px;
-  right: -30px;
-  left: -30px;
-  top: -30px;
+  right: -6%;
   padding: 100px;
   transform: skew(10deg);
 }
 
 .crushed .c-four {
-  height: 290px;
-  margin: 0 -20px 0 0;
+  height: 350px;
+  display: flex;
+  width: 49%;
+  width: 54%;
+  margin: 0 -5% 0 0;
   transform: skew(-10deg);
   overflow: hidden;
   position: relative;
@@ -202,16 +296,13 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -30px;
-  right: -30px;
   left: -30px;
-  top: -30px;
   padding: 100px;
   transform: skew(10deg);
 }
 
 .crushed p {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .crushed a {
@@ -229,6 +320,48 @@ h3 {
 =            media Query Code            =
 =============================================*/
 @media only screen and (max-width: 768px) {
+  .dolor .content {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 700px;
+    transform: none;
+  }
+  .dolor .content .image {
+    padding: 30px;
+    height: auto;
+    transform: none;
+    margin: 0;
+  }
+  .dolor .img {
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+  .dolor .img img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .agree .c-first {
+    margin: 0;
+    transform: none;
+  }
+  .agree .c-first .image {
+    padding: 0;
+    padding-left: 30px;
+    transform: none;
+  }
+  .agree .c-first.c1 {
+    width: 100%;
+  }
+  .agree .c-first.c2 {
+    width: 100%;
+  }
+  .agree .c-first.c3 {
+    width: 100%;
+  }
   .find-us label {
     left: -20px;
   }
