@@ -105,7 +105,8 @@ h3 {
 .group {
   // background-image: url("../../img/aboutus.jpg");
   // background: url("../../img/aboutus.jpg") no-repeat 0, 0, 0, 0;
-  background: url("../../img/aboutus.jpg") no-repeat 0, 0 rgb(56, 223, 101);
+  background: url("../../img/aboutus.jpg") no-repeat 0,
+    0 rgba(56, 223, 101, 0.73);
   background-blend-mode: soft-light;
   background-size: cover;
   position: relative;
@@ -139,7 +140,8 @@ h3 {
 =            Find US Code            =
 =============================================*/
 .find-us {
-  background: url("../../img/findus.jpg") no-repeat 0, 0 rgb(56, 223, 101);
+  background: url("../../img/findus.jpg") no-repeat 0,
+    0 rgba(56, 223, 101, 0.74);
   background-blend-mode: soft-light;
 
   background-repeat: no-repeat;
