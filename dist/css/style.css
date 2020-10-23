@@ -227,6 +227,59 @@ h3 {
 }
 
 /*=============================================
+=            analatical Code            =
+=============================================*/
+.analatical {
+  position: relative;
+  overflow: hidden;
+  background-color: #cbcbcb;
+}
+
+.analatical .c-first {
+  display: flex;
+  height: 50px;
+  text-align: center;
+  transform: skew(-10deg);
+  overflow: hidden;
+  position: relative;
+  line-height: 50px;
+}
+
+.analatical .c-first .image {
+  display: flex;
+  padding: 0 0 0 20%;
+  text-align: center;
+  position: absolute;
+  transform: skew(10deg);
+  color: white;
+}
+
+.analatical .c-first.c1 {
+  width: 35.65%;
+  margin-left: -2%;
+}
+
+.analatical .c-first.c2 {
+  width: 33%;
+}
+
+.analatical .c-first.c3 {
+  width: 35%;
+  margin-right: -2%;
+  background-color: #aeaeae;
+}
+
+.analatical a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.analatical .c-first.active {
+  background-color: #38df65;
+}
+
+/*=============================================
 =            agree Code            =
 =============================================*/
 .agree {
