@@ -83,12 +83,12 @@ body {
       margin: 0;
     }
     .header-content {
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.2);
     }
     .content {
       position: absolute;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.2);
       right: 0;
       color: white;
       width: 100%;
@@ -139,7 +139,7 @@ body {
       top: 203px;
       background: rgba(0, 0, 0, 0.5);
       color: white;
-      height: 100%;
+      height: 250px;
       width: 100%;
       padding: 5px !important;
       margin: 0;
@@ -149,6 +149,21 @@ body {
         font-weight: 600;
         color: #38df65;
         font-size: 20px !important;
+      }
+    }
+  }
+  .products-page {
+    .header {
+      .header-content {
+        background: rgb(0, 0, 0) !important;
+      }
+      .video {
+        margin-top: 70px;
+      }
+      .content {
+        position: absolute;
+        // bottom: -10px !important;
+        top: 300px;
       }
     }
   }
