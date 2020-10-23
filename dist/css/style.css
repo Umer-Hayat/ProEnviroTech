@@ -79,6 +79,35 @@ body {
   font-size: 24px;
 }
 
+.products-page .header .video {
+  background: url("../../img/headerbg.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.4);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 0;
+}
+
+.products-page .header .header-content {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.products-page .header .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  right: 0;
+  color: white;
+  width: 100%;
+  padding: 45px;
+  margin: 0;
+}
+
+.products-page .header .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
 /*=============================================
 =            media Query Code            =
 =============================================*/
@@ -438,6 +467,81 @@ h3 {
   padding: 10px 20px;
   font-weight: 600;
   font-size: 17px;
+}
+
+.products-page .find-us {
+  background: url("../../img/findus.jpg") no-repeat 0, 0 rgba(0, 0, 0, 0.8);
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.products-page .find-us h3 {
+  font-size: 26px;
+}
+
+.products-page .contruct {
+  padding: 60px 0;
+}
+
+.products-page .contruct .col-md-6 {
+  padding: 5px;
+}
+
+.products-page .contruct .content {
+  padding: 60px 40px;
+  color: white;
+}
+
+.products-page .contruct .content h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.products-page .contruct .content a {
+  display: inline-block;
+  margin: 5px 0;
+  background-color: #38df65;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.products-page .contruct .c-first {
+  background: url("../../img/b1.jpg") no-repeat 0, 0 rgba(56, 223, 101, 0.9);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-page .contruct .c-second {
+  background: url("../../img/b2.jpg") no-repeat 0, 0 rgba(56, 223, 101, 0.9);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-page .contruct .c-third {
+  background: url("../../img/b3.jpg") no-repeat 0, 0 rgba(56, 223, 101, 0.9);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-page .contruct .c-four {
+  background: url("../../img/b4.jpg") no-repeat 0, 0 rgba(56, 223, 101, 0.9);
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*=============================================

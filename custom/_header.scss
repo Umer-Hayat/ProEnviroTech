@@ -69,6 +69,38 @@ body {
     }
   }
 }
+
+.products-page {
+  .header {
+    .video {
+      background: url("../../img/headerbg.jpg") no-repeat 0,
+        0 rgba(0, 0, 0, 0.4);
+      // background-blend-mode: soft-light;
+      background-position: bottom center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+      margin: 0;
+    }
+    .header-content {
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .content {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      right: 0;
+      color: white;
+      width: 100%;
+      padding: 45px;
+      margin: 0;
+      h3 {
+        font-weight: 600;
+        font-size: 26px;
+      }
+    }
+  }
+}
 /*=============================================
 =            media Query Code            =
 =============================================*/
