@@ -645,6 +645,26 @@ h3 {
     width: 100%;
     margin: 0;
   }
+  .analatical .c-first {
+    margin: 0;
+    transform: none;
+  }
+  .analatical .c-first .image {
+    padding: 0;
+    padding-left: 30px;
+    transform: none;
+  }
+  .analatical .c-first.c1 {
+    width: 100%;
+    margin: 0;
+  }
+  .analatical .c-first.c2 {
+    width: 100%;
+  }
+  .analatical .c-first.c3 {
+    width: 100%;
+    margin: 0;
+  }
   .agree .c-first {
     margin: 0;
     transform: none;

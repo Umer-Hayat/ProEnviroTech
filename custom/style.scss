@@ -448,6 +448,29 @@ h3 {
       }
     }
   }
+  .analatical {
+    .c-first {
+      margin: 0;
+      transform: none;
+      // overflow: hidden;
+      .image {
+        padding: 0;
+        padding-left: 30px;
+        transform: none;
+      }
+    }
+    .c-first.c1 {
+      width: 100%;
+      margin: 0;
+    }
+    .c-first.c2 {
+      width: 100%;
+    }
+    .c-first.c3 {
+      width: 100%;
+      margin: 0;
+    }
+  }
   .agree {
     // overflow: hidden;
     .c-first {
