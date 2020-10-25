@@ -118,6 +118,9 @@ body {
     }
     .video {
       margin-top: 70px;
+      .content {
+        overflow: hidden;
+      }
     }
     .navbar {
       background-color: #fff;

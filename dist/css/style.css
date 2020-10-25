@@ -124,6 +124,9 @@ body {
   .header .video {
     margin-top: 70px;
   }
+  .header .video .content {
+    overflow: hidden;
+  }
   .header .navbar {
     background-color: #fff;
   }
@@ -613,7 +616,7 @@ h3 {
 =============================================*/
 @media only screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
   .dolor {
     margin-top: 250px;
@@ -695,7 +698,7 @@ h3 {
   }
   .crushed .c-first {
     height: 240px;
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     padding: 0;
     transform: none;
@@ -707,7 +710,7 @@ h3 {
   }
   .crushed .c-second {
     height: 242px;
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     transform: none;
   }
@@ -718,8 +721,7 @@ h3 {
   }
   .crushed .c-third {
     height: 240px;
-    display: flex;
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     transform: none;
   }
@@ -730,13 +732,14 @@ h3 {
   }
   .crushed .c-four {
     height: 225px;
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     transform: none;
   }
   .crushed .c-four .image {
     left: 0;
     padding: 10px;
+    margin: 0;
     transform: none;
   }
   .crushed p {

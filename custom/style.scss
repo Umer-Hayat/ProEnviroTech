@@ -413,7 +413,7 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
   .dolor {
     margin-top: 250px;
@@ -499,9 +499,10 @@ h3 {
   }
   .crushed {
     overflow: hidden;
+    // padding: 0 10px;
     .c-first {
       height: 240px;
-      width: 100%;
+      width: 100% !important;
       margin: 0;
       padding: 0;
       transform: none;
@@ -513,7 +514,7 @@ h3 {
     }
     .c-second {
       height: 242px;
-      width: 100%;
+      width: 100% !important;
       margin: 0;
       transform: none;
       .image {
@@ -526,8 +527,7 @@ h3 {
 
     .c-third {
       height: 240px;
-      display: flex;
-      width: 100%;
+      width: 100% !important;
       margin: 0;
       transform: none;
       .image {
@@ -538,12 +538,13 @@ h3 {
     }
     .c-four {
       height: 225px;
-      width: 100%;
+      width: 100% !important;
       margin: 0;
       transform: none;
       .image {
         left: 0;
         padding: 10px;
+        margin: 0;
         transform: none;
       }
     }
