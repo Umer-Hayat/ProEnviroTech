@@ -59,6 +59,7 @@ h3 {
   position: relative;
   overflow: hidden;
   background-color: #cbcbcb;
+  margin-bottom: 3px;
   .c-first {
     display: flex;
     height: 50px;
@@ -422,7 +423,7 @@ h3 {
       width: 100%;
       // height: 500px;
       margin: 0;
-      height: 700px;
+      height: 650px;
       transform: none;
       .image {
         padding: 20px;
@@ -450,6 +451,7 @@ h3 {
   }
   .analatical {
     overflow: hidden;
+    // margin-bottom: 10px;
     .c-first {
       margin: 0;
       transform: none;
@@ -504,7 +506,7 @@ h3 {
     overflow: hidden;
     // padding: 0 10px;
     .c-first {
-      height: 240px;
+      height: 225px;
       width: 100% !important;
       margin: 0;
       padding: 0;
@@ -516,7 +518,7 @@ h3 {
       }
     }
     .c-second {
-      height: 242px;
+      height: 225px;
       width: 100% !important;
       margin: 0;
       transform: none;
@@ -529,7 +531,7 @@ h3 {
     }
 
     .c-third {
-      height: 240px;
+      height: 225px;
       width: 100% !important;
       margin: 0;
       transform: none;
@@ -574,6 +576,15 @@ h3 {
     margin-top: 300px;
     .content {
       padding: 20px 10px !important;
+    }
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+  .crushed {
+    .c-first {
+      height: 245px;
     }
   }
 }

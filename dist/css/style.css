@@ -145,7 +145,7 @@ body {
     overflow: hidden;
     position: absolute;
     bottom: -10px !important;
-    top: 203px;
+    top: 211px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     height: 250px;
@@ -168,6 +168,19 @@ body {
   .products-page .header .content {
     position: absolute;
     top: 300px;
+  }
+}
+
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+  .header .content {
+    top: 180px;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) {
+  .header .content {
+    top: 233px;
   }
 }
 
@@ -236,6 +249,7 @@ h3 {
   position: relative;
   overflow: hidden;
   background-color: #cbcbcb;
+  margin-bottom: 3px;
 }
 
 .analatical .c-first {
@@ -625,7 +639,7 @@ h3 {
     display: flex;
     width: 100%;
     margin: 0;
-    height: 700px;
+    height: 650px;
     transform: none;
   }
   .dolor .content .image {
@@ -700,7 +714,7 @@ h3 {
     overflow: hidden;
   }
   .crushed .c-first {
-    height: 240px;
+    height: 225px;
     width: 100% !important;
     margin: 0;
     padding: 0;
@@ -712,7 +726,7 @@ h3 {
     transform: none;
   }
   .crushed .c-second {
-    height: 242px;
+    height: 225px;
     width: 100% !important;
     margin: 0;
     transform: none;
@@ -723,7 +737,7 @@ h3 {
     transform: none;
   }
   .crushed .c-third {
-    height: 240px;
+    height: 225px;
     width: 100% !important;
     margin: 0;
     transform: none;
@@ -767,6 +781,13 @@ h3 {
   }
   .contruct .content {
     padding: 20px 10px !important;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+  .crushed .c-first {
+    height: 245px;
   }
 }
 

@@ -140,7 +140,7 @@ body {
       overflow: hidden;
       position: absolute;
       bottom: -10px !important;
-      top: 203px;
+      top: 211px;
       background: rgba(0, 0, 0, 0.5);
       color: white;
       height: 250px;
@@ -172,7 +172,21 @@ body {
     }
   }
 }
-
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
+  .header {
+    .content {
+      top: 180px;
+    }
+  }
+}
+/* Meida Quries IPad */
+@media all and (device-width: 414px) and (device-height: 736px) and (orientation: portrait) {
+  .header {
+    .content {
+      top: 233px;
+    }
+  }
+}
 /* Meida Quries IPad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
 }
