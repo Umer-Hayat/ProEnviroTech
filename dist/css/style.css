@@ -693,6 +693,9 @@ h3 {
     width: 100%;
     margin: 0;
   }
+  .group {
+    padding: 30px 0;
+  }
   .crushed {
     overflow: hidden;
   }
